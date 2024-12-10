@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "FYfcpeESEGguDzqxN+PxLUzYUZN3haVCN8wlK8N8N2A=",
+  "Source": "ParkingLotManagement",
+  "BasePath": "_content/ParkingLotManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ParkingLotManagement\\wwwroot",
+      "Source": "ParkingLotManagement",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\4xfwzkxba5-q53j757vxq.gz",
+      "SourceId": "ParkingLotManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "RelativePath": "js/app#[.{fingerprint=q53j757vxq}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\js\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "k82eb8p4z4",
+      "Integrity": "1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\js\\app.js"
+    },
+    {
+      "Identity": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\qmyx4pqin8-uu7w5he5la.gz",
+      "SourceId": "ParkingLotManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "RelativePath": "index#[.{fingerprint=uu7w5he5la}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uexcg8kjsn",
+      "Integrity": "2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\rr1f981a29-tekbwqwe80.gz",
+      "SourceId": "ParkingLotManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "RelativePath": "css/style#[.{fingerprint=tekbwqwe80}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "orkokm6v9s",
+      "Integrity": "JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\css\\style.css",
+      "SourceId": "ParkingLotManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tekbwqwe80",
+      "Integrity": "63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\index.html",
+      "SourceId": "ParkingLotManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uu7w5he5la",
+      "Integrity": "OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\js\\app.js",
+      "SourceId": "ParkingLotManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\",
+      "BasePath": "_content/ParkingLotManagement",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q53j757vxq",
+      "Integrity": "Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\rr1f981a29-tekbwqwe80.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001697792869"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 18:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 18:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\rr1f981a29-tekbwqwe80.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 18:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.tekbwqwe80.css",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\rr1f981a29-tekbwqwe80.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001697792869"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 18:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tekbwqwe80"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.tekbwqwe80.css",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 18:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tekbwqwe80"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.tekbwqwe80.css.gz",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\rr1f981a29-tekbwqwe80.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 18:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tekbwqwe80"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JEsZAfCIxu5uEp64hlmB9yprG6qIEd2W30speAD7zps="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\qmyx4pqin8-uu7w5he5la.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001121076233"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:22:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:22:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\qmyx4pqin8-uu7w5he5la.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:22:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk="
+        }
+      ]
+    },
+    {
+      "Route": "index.uu7w5he5la.html",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\qmyx4pqin8-uu7w5he5la.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001121076233"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:22:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uu7w5he5la"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw="
+        }
+      ]
+    },
+    {
+      "Route": "index.uu7w5he5la.html",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:22:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uu7w5he5la"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p+9aAsu0pGw="
+        }
+      ]
+    },
+    {
+      "Route": "index.uu7w5he5la.html.gz",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\qmyx4pqin8-uu7w5he5la.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:22:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uu7w5he5la"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2pvzeWV7sHmKROqC4jJ4LHsq1zfvWlYhV/ZKejPb2pk="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\4xfwzkxba5-q53j757vxq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000197277570"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5068"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js.gz",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\4xfwzkxba5-q53j757vxq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.q53j757vxq.js",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\4xfwzkxba5-q53j757vxq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000197277570"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5068"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q53j757vxq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.q53j757vxq.js",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q53j757vxq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qp4dHkHXQbLAGgSUpIPvieLlH+YbTxZU24LQIp5hLJc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.q53j757vxq.js.gz",
+      "AssetFile": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\obj\\Debug\\net9.0\\compressed\\4xfwzkxba5-q53j757vxq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 15:24:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q53j757vxq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1J2920jj1t8ocohaKLYhPtZVQCzMG3G1Z28wnDqFpSo="
+        }
+      ]
+    }
+  ]
+}

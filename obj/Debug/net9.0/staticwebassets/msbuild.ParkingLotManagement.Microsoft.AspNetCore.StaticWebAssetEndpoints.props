@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ParkingLotManagement/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1856"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002263v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 18:20:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingLotManagement/css/style.tekbwqwe80.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tekbwqwe80"},{"Name":"integrity","Value":"sha256-63v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM="},{"Name":"label","Value":"_content/ParkingLotManagement/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1856"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002263v9zJFdazHFGsgZH6jpPHQRUdvlBv6MqhmDtG4UDSM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 18:20:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingLotManagement/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p\u002B9aAsu0pGw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2702"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p\u002B9aAsu0pGw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 15:22:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingLotManagement/index.uu7w5he5la.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uu7w5he5la"},{"Name":"integrity","Value":"sha256-OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p\u002B9aAsu0pGw="},{"Name":"label","Value":"_content/ParkingLotManagement/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2702"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022OufsH6rKHRiLJFMCXtDDnDz6DvZNdtX2p\u002B9aAsu0pGw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 15:22:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingLotManagement/js/app.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Qp4dHkHXQbLAGgSUpIPvieLlH\u002BYbTxZU24LQIp5hLJc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17698"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Qp4dHkHXQbLAGgSUpIPvieLlH\u002BYbTxZU24LQIp5hLJc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 15:24:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingLotManagement/js/app.q53j757vxq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q53j757vxq"},{"Name":"integrity","Value":"sha256-Qp4dHkHXQbLAGgSUpIPvieLlH\u002BYbTxZU24LQIp5hLJc="},{"Name":"label","Value":"_content/ParkingLotManagement/js/app.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17698"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Qp4dHkHXQbLAGgSUpIPvieLlH\u002BYbTxZU24LQIp5hLJc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 15:24:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

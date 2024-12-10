@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Parking Lot Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.9/dist/goong-js.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.9/dist/goong-js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Quản lý bãi đỗ xe</h2>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Tìm kiếm địa điểm...">
+                <div id="search-results"></div>
+            </div>
+            <form id="parkingLotForm">
+                <input type="text" id="name" placeholder="Tên bãi đỗ xe" required>
+                <input type="text" id="address" placeholder="Địa chỉ" required>
+                <div class="coordinates">
+                    <input type="number" id="latitude" placeholder="Vĩ độ" required readonly>
+                    <input type="number" id="longitude" placeholder="Kinh độ" required readonly>
+                </div>
+                <p class="help-text">Click trên bản đồ để chọn vị trí</p>
+                <input type="number" id="capacity" placeholder="Sức chứa" required>
+                <textarea id="description" placeholder="Mô tả"></textarea>
+                <button type="submit">Thêm bãi đỗ xe</button>
+            </form>
+            <div class="nearby-search">
+                <h3>Tìm bãi đỗ xe gần đây</h3>
+                <input type="number" id="searchRadius" value="1.0" step="0.1" min="0.1">
+                <button id="findNearby">Tìm kiếm</button>
+            </div>
+            <div id="parkingLotList"></div>
+            <form id="registerForm" class="auth-form">
+                <h3>Đăng ký</h3>
+                <input type="email" id="registerEmail" placeholder="Email" required>
+                <input type="password" id="registerPassword" placeholder="Mật khẩu" required>
+                <input type="text" id="firstName" placeholder="Tên" required>
+                <input type="text" id="lastName" placeholder="Họ" required>
+                <select id="role" required>
+                    <option value="User">User</option>
+                    <option value="Admin">Admin</option>
+                </select>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+        <div id="map"></div>
+        <div id="directions-panel"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

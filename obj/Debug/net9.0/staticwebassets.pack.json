@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Workhome\\ParkingLot\\ParkingLotManagement\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ParkingLotManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ParkingLotManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ParkingLotManagement.props",
+      "PackagePath": "build\\ParkingLotManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ParkingLotManagement.props",
+      "PackagePath": "buildMultiTargeting\\ParkingLotManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ParkingLotManagement.props",
+      "PackagePath": "buildTransitive\\ParkingLotManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

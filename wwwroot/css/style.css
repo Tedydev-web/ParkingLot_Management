@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background: #f5f5f5;
+    overflow-y: auto;
+}
+
+#map {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, textarea, button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.parking-lot-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.parking-lot-item button {
+    margin-top: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.delete-btn {
+    background: #f44336;
+}
+
+.coordinates {
+    display: flex;
+    gap: 10px;
+}
+
+.coordinates input {
+    flex: 1;
+    background-color: #f0f0f0;
+}
+
+.help-text {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+.search-result-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background: #f0f0f0;
+}
+
+.nearby-search {
+    margin: 15px 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+#directions-panel {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    overflow-y: auto;
+    display: none;
+}
+
+.route-info {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+.get-directions-btn {
+    background: #2196F3;
+    margin-top: 5px;
+}
