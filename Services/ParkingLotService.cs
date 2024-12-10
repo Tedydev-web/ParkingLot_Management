@@ -10,6 +10,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using System.Net.Http;
 using System.Security.Claims;
+using ParkingLotManagement.Configurations;
+using System.Text.Json;
+using Microsoft.Extensions.Options;
 
 namespace ParkingLotManagement.Services
 {
@@ -19,17 +22,23 @@ namespace ParkingLotManagement.Services
         private readonly IGoongMapService _goongMapService;
         private readonly ILogger<ParkingLotService> _logger;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly GoongMapSettings _goongMapSettings;
 
         public ParkingLotService(
             ApplicationDbContext context,
             IGoongMapService goongMapService,
             ILogger<ParkingLotService> logger,
-            IHttpContextAccessor httpContextAccessor)
+            IHttpContextAccessor httpContextAccessor,
+            IHttpClientFactory httpClientFactory,
+            IOptions<GoongMapSettings> goongMapSettings)
         {
             _context = context;
             _goongMapService = goongMapService;
             _logger = logger;
             _httpContextAccessor = httpContextAccessor;
+            _httpClientFactory = httpClientFactory;
+            _goongMapSettings = goongMapSettings.Value;
         }
 
         private string GetCurrentUserId()
@@ -47,18 +56,43 @@ namespace ParkingLotManagement.Services
             return await _context.ParkingLots.FindAsync(id);
         }
 
-        public async Task<ParkingLot?> CreateAsync(CreateParkingLotDto dto)
+        public async Task<ParkingLot> CreateAsync(CreateParkingLotDto dto)
         {
-            try
-            {
-                // Validate địa chỉ với Goong Geocoding
-                var geocodeResult = await _goongMapService.GeocodeAddressAsync(dto.Address);
-                if (geocodeResult?.Results.FirstOrDefault()?.PlaceId == null)
+            try {
+                // Xác thực địa chỉ với Goong Map
+                var goongMapService = _httpClientFactory.CreateClient("GoongMap");
+                var encodedAddress = Uri.EscapeDataString(dto.Address);
+                var url = $"Geocode?address={encodedAddress}&api_key={_goongMapSettings.ApiKey}";
+                
+                _logger.LogInformation($"Calling Goong Map API: {url}");
+                
+                var response = await goongMapService.GetAsync(url);
+                
+                if (!response.IsSuccessStatusCode)
                 {
-                    _logger.LogWarning("Invalid address: {Address}", dto.Address);
+                    _logger.LogError($"Goong Map API error: {response.StatusCode}");
+                    var error = await response.Content.ReadAsStringAsync();
+                    _logger.LogError($"Error content: {error}");
                     return null;
                 }
 
+                var geocodeResult = await response.Content.ReadFromJsonAsync<GeocodeResponse>();
+                if (geocodeResult?.Results == null || !geocodeResult.Results.Any())
+                {
+                    _logger.LogError("No results from Goong Map API");
+                    return null;
+                }
+
+                // Tăng độ chênh lệch cho phép lên 0.1 (khoảng 11km)
+                var location = geocodeResult.Results.First().Geometry.Location;
+                if (Math.Abs(location.Lat - dto.Latitude) > 0.1 || 
+                    Math.Abs(location.Lng - dto.Longitude) > 0.1)
+                {
+                    _logger.LogError($"Coordinates mismatch. API: {location.Lat},{location.Lng} vs Input: {dto.Latitude},{dto.Longitude}");
+                    return null;
+                }
+
+                // Tạo mới ParkingLot
                 var parkingLot = new ParkingLot
                 {
                     Name = dto.Name,
@@ -66,15 +100,15 @@ namespace ParkingLotManagement.Services
                     Latitude = dto.Latitude,
                     Longitude = dto.Longitude,
                     Capacity = dto.Capacity,
-                    Description = dto.Description,
-                    PlaceId = geocodeResult.Results[0].PlaceId ?? string.Empty,
                     AvailableSpots = dto.Capacity,
-                    CreatedAt = DateTime.UtcNow,
-                    CreatedBy = GetCurrentUserId()
+                    Description = dto.Description,
+                    IsActive = true,
+                    CreatedAt = DateTime.UtcNow
                 };
 
                 _context.ParkingLots.Add(parkingLot);
                 await _context.SaveChangesAsync();
+
                 return parkingLot;
             }
             catch (Exception ex)

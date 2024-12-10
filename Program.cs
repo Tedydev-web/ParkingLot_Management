@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ParkingLotManagement.Configurations;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,6 +65,21 @@ builder.Services.AddScoped<IGoongMapService, GoongMapService>();
 
 // Add memory cache
 builder.Services.AddMemoryCache();
+
+// Add GoongMap settings
+builder.Services.Configure<GoongMapSettings>(
+    builder.Configuration.GetSection("GoongMap")
+);
+builder.Services.AddSingleton(sp => 
+    sp.GetRequiredService<IOptions<GoongMapSettings>>().Value
+);
+
+// Add HttpClient for GoongMap
+builder.Services.AddHttpClient("GoongMap", client =>
+{
+    client.BaseAddress = new Uri(builder.Configuration["GoongMap:BaseUrl"] ?? 
+        throw new InvalidOperationException("GoongMap BaseUrl not configured"));
+});
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

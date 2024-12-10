@@ -162,3 +162,4 @@ D:\Workhome\ParkingLot\ParkingLotManagement\obj\Debug\net9.0\ParkingLotManagemen
 D:\Workhome\ParkingLot\ParkingLotManagement\obj\Debug\net9.0\ref\ParkingLotManagement.dll
 D:\Workhome\ParkingLot\ParkingLotManagement\obj\Debug\net9.0\compressed\qmyx4pqin8-uu7w5he5la.gz
 D:\Workhome\ParkingLot\ParkingLotManagement\obj\Debug\net9.0\compressed\4xfwzkxba5-q53j757vxq.gz
+D:\Workhome\ParkingLot\ParkingLotManagement\obj\Debug\net9.0\ParkingLotManagement.sourcelink.json
